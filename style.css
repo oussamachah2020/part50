@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-image: url('image/lac.JPG');
+    background-size: cover;
+}
+.login {
+    padding-top: 10px;
+    margin: 100px 450px 0 450px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.877);
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    transform: translateY(10px);
+}
+input {
+    margin: 30px 0 0 35px;
+    padding: 10px 230px 10px 10px ;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.63);
+    background-color: rgba(255, 255, 255, 0);
+}
+input:focus {
+    border-bottom: 1px solid white;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.582);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+    margin:30px 0 0 32px;
+    padding: 10px 174px 10px 174px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(236, 100, 152);
+    border: none;
+    outline: none;
+}
+label {
+    color: white;
+    padding-left: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link { 
+    margin-left: 280px;
+    transform: translateY(-22px);
+}
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: none;
+}
+.facebook {
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.facebook img {
+  padding-left: 20px;
+}
+cursor {
+    color: white;
+}
+
